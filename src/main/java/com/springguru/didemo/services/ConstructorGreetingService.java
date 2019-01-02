@@ -10,6 +10,6 @@ public class ConstructorGreetingService implements GreetingService {
 
     @Override
     public String sayGreeting() {
-        return "Constuctor Greeting Service";
+        return "Constructor Greeting Service";
     }
 }
