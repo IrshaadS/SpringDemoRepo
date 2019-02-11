@@ -15,7 +15,7 @@ public class MyController {
     }
 
 
-    public String hello(){
+    public String hello() {
         return greetingService.sayGreeting();
     }
 

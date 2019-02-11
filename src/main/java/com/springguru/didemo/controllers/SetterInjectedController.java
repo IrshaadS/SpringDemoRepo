@@ -13,12 +13,12 @@ public class SetterInjectedController {
     // Setter Injection
     @Autowired
     @Qualifier("getterGreetingService")
-    public void setGreetingService(GreetingService greetingService){
+    public void setGreetingService(GreetingService greetingService) {
         this.greetingService = greetingService;
 
     }
 
-    public String sayHello(){
+    public String sayHello() {
         return greetingService.sayGreeting();
     }
 }
